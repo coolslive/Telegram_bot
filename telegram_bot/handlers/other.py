@@ -2,7 +2,6 @@ from aiogram import types, Dispatcher
 import json, string
 from create_bot import dp
 
-
 #@dp.message_handler()
 async def echo_send(message : types.Message):
     if {i.lower().translate(str.maketrans('', '', string.punctuation)) for i in message.text.split(' ')}\

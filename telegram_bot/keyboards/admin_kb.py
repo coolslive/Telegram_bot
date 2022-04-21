@@ -1,6 +1,5 @@
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 
-
 #Кнопки клавиатру админа
 button_load = KeyboardButton('/Загрузить')
 button_delete = KeyboardButton('/Удалить')
